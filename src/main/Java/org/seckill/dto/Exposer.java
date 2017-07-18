@@ -20,8 +20,14 @@ public class Exposer {
      */
     private long now;
 
+    /**
+     * 开始时间
+     */
     private long start;
 
+    /**
+     * 结束时间
+     */
     private long end;
 
     public Exposer(boolean exposer, String md5, long seckillId) {

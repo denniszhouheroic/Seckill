@@ -10,11 +10,13 @@ import org.seckill.exception.SeckillException;
 import java.util.List;
 
 /**
- * 业务接口：站在“使用者”角度设计接口
- * 三个方面：方法定义粒度，参数，返回类型(return 类型)
  * Created by Dennis_zhou on 2017/7/18.
  */
 public interface SeckillService {
+    /**
+     * 业务接口：站在“使用者”角度设计接口
+     * 三个方面：方法定义粒度，参数，返回类型(return 类型)
+     */
 
     /**
      * 查询所有记录

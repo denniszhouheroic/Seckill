@@ -38,7 +38,7 @@ public class SeckillServiceImpl implements SeckillService{
     private SuccessKilledDao successKilledDao;
 
     /**
-     * 加入混淆
+     * 加入混淆 的盐值
      */
     private final String slat = "^^7^^f^^7^^2^^a^^7^^2^^8^^a^^0^^e^^6^^6^^5^^a^^5^^";
 
