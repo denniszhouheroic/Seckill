@@ -49,7 +49,7 @@
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--注入sqlSessionFactory-->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-        <!--给出扫描Dao接口的包-->
+        <!--给出扫描Dao接口的包,不用像之前开发，实现DaoImpl-->
         <property name="basePackage" value="org.seckill.dao"/>
     </bean>
 </beans>
