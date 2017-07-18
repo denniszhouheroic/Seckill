@@ -6,6 +6,7 @@
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/Spring/Spring-dao.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/Spring/Spring-service.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/Spring/Spring-mvc.xml</file>
         </fileset>
       </configuration>
     </facet>
