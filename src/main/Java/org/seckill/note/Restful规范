@@ -1,0 +1,25 @@
+在一般规范中Get请求可能用于较为简单的请求，而Post用于较为复杂的请求。
+
+而在Restful规范中，并不是这么使用，Get等并不是作为一个动词来表示，而是作为一个名词。
+
+GET    -> 查询操作
+POST   -> 添加/修改操作
+PUT    ->修改操作
+DELETE -> 删除操作
+
+URL设计
+
+/模块/资源/{标识}/集合1/...
+
+本项目中API的URL设计
+
+GET/seckill/list                   秒杀列表
+
+GET/seckill/{id}/detail            详情页
+
+GET /seckill/time/now              系统时间
+
+POST /seckill/{id}/exposer         暴露秒杀
+
+POST /seckill/{id}/{md5}/execution 执行秒杀
+
